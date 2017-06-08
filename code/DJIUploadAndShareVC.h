@@ -1,5 +1,5 @@
 //
-//  DJIUploadAndShareVC.h
+//  DJIUploadAndShareVC1.h
 //  Phantom3
 //
 //  Created by pygzx on 15/8/24.
@@ -9,10 +9,10 @@
 #import "SkinViewController.h"
 
 @class UploadFile;
-@class DJIUploadAndShareVC;
+@class DJIUploadAndShareVC1;
 @class DJIVideoEditProject;
 
-@interface DJIUploadAndShareVC : SkinViewController
+@interface DJIUploadAndShareVC1 : SkinViewController
 
 
 - (id) initWithFile:(UploadFile*)file;
@@ -41,7 +41,7 @@
 
 /********  初始化后的部分 参数设置 ************/
 @property (nonatomic, assign) BOOL  fromFPV; //fpv 专用, 强制设置 横屏模式, 且分享后不跳入shareMore，直接调block
-@property (nonatomic, copy)     void(^fpvShareCompletion)(DJIUploadAndShareVC*);    //分享完成block；由外面决定是否dismiss，
+@property (nonatomic, copy)     void(^fpvShareCompletion)(DJIUploadAndShareVC1*);    //分享完成block；由外面决定是否dismiss，
 @property (nonatomic, assign)   UIInterfaceOrientation  orientationOfFPV;   //记录FPV的 转向，share界面转向跟它一样
 
 @property (nonatomic, strong) NSString  *assetUrl; //上级界面直接保存到相册后，设置该值（主要用于 instgram 分享)
