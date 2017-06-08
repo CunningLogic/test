@@ -33,7 +33,7 @@
                    musicId:(NSInteger)musicId
                  segmentId:(NSString*)segmentId;
 
-+ (void)setShareProductClass:(NSString*)productClass;
++ (void)setShareProductClass11:(NSString*)productClass;
 
 @property (nonatomic, assign) BOOL fromMakeMovieVC;
 
