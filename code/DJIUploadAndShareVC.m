@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 DJIDevelopers.com. All rights reserved.
 //
 
-#import "DJIUploadAndShareVC.h"
-#import "UIImage+ImageEffects.h"
-#import "UploadManager.h"
+#import "DJIUploadAndShareVC1.h"
+#import "UIImage+ImageEffects2.h"
+#import "UploadManager3.h"
 #import "DJIProgressButton.h"
 #import "SkinViewController+Com.h"
 #import "PlaceHolderTextView.h"
