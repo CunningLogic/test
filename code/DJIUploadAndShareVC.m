@@ -7,7 +7,6 @@
 //
 
 #import "DJIUploadAndShareVC.h"
-#import "UIImage+ImageEffects.h"
 #import "UploadManager.h"
 #import "DJIProgressButton.h"
 #import "SkinViewController+Com.h"
