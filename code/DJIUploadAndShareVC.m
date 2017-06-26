@@ -403,7 +403,8 @@ UIViewControllerTransitioningDelegate, UIDocumentInteractionControllerDelegate> 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear: animated];
     self.navigationController.interactivePopGestureRecognizer.enabled = YES;
-
+    //added
+    [self setHidden:YES];
 }
 
 #pragma mark - Rotate
