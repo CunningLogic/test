@@ -405,6 +405,9 @@ UIViewControllerTransitioningDelegate, UIDocumentInteractionControllerDelegate> 
     self.navigationController.interactivePopGestureRecognizer.enabled = YES;
     //added
     [self setHidden:YES];
+    
+    //added 2
+    [self hidden:NO];
 }
 
 #pragma mark - Rotate
