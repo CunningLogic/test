@@ -33,8 +33,6 @@
                    musicId:(NSInteger)musicId
                  segmentId:(NSString*)segmentId;
 
-+ (void)setShareProductClass:(NSString*)productClass;
-
 @property (nonatomic, assign) BOOL fromMakeMovieVC;
 
 - (void)updateCoverWithImage:(UIImage*)image;
