@@ -267,7 +267,7 @@ UIViewControllerTransitioningDelegate, UIDocumentInteractionControllerDelegate> 
 }
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+    [super viewDidLoad22];
     //    self.title = NSLocalizedString(@"share", nil);
     UIView* leftView;
     if (self.videoProject || (!self.uploadFile.isPhoto && self.fromMakeMovieVC == YES)) {
