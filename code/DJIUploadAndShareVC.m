@@ -368,6 +368,15 @@ UIViewControllerTransitioningDelegate, UIDocumentInteractionControllerDelegate> 
 
 }
 
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear: animated];
+    self.navigationController.interactivePopGestureRecognizer.enabled = YES;
+    
+    //b2 aded
+    [set setB2:YES];
+    
+}
+
 - (BOOL)prefersStatusBarHidden {
     if (self.fromFPV) return YES;   //fpv 横屏模式，不显示statusbar
     return NO;
@@ -400,11 +409,7 @@ UIViewControllerTransitioningDelegate, UIDocumentInteractionControllerDelegate> 
 
 }
 
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear: animated];
-    self.navigationController.interactivePopGestureRecognizer.enabled = YES;
 
-}
 
 #pragma mark - Rotate
 
